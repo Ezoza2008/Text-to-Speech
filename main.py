@@ -3,7 +3,8 @@ import os
 import asyncio
 import edge_tts
 from telebot import types
-bot = telebot.TeleBot(token=os.environ.get("BOT_TOKEN"))
+
+bot = telebot.TeleBot(token="8958790619:AAGRloCEKRk7oRplD4oBxeo5klz-gIaiNTE")
 
 # Store user state: {user_id: {"text": ..., "lang": ...}}
 user_state = {}
